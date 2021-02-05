@@ -1,0 +1,52 @@
+<?php
+
+$user = $_POST ['user'];
+$senha = $_POST ['senha'];
+$nome = $_POST ['nome'];
+$telefone = $_POST ['telefone'];
+$cpf = $_POST ['cpf'];
+$sexo = $_POST ['sexo'];
+$estado = $_POST ['estado'];
+$cidade = $_POST ['cidade'];
+$rua = $_POST ['rua'];
+$num = $_POST ['num'];
+
+echo "<table border=3px>";
+echo "<tr>";
+echo "<th> Usuário </th>";
+echo "<td>" .$user. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<th> Senha </th>";
+echo "<td>" .$senha. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<th> Nome </th>";
+echo "<td>" .$nome. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<th> Telefone </th>";
+echo "<td>" .$telefone. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<th> Sexo </th>";
+echo "<td>" .$sexo. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<th> Estado </th>";
+echo "<td>" .$estado. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<th> Cidade </th>";
+echo "<td>" .$cidade. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<th> Rua </th>";
+echo "<td>" .$rua. "</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<th> Número </th>";
+echo "<td>" .$num. "</td>";
+echo "</tr>";
+echo "</table>";
+?>
